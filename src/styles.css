@@ -1,0 +1,150 @@
+nav {
+    background-color: #F55A5A;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 5px;
+}
+
+.nav--container, .article--container {
+    width: 550px;
+    height: 55px;
+    margin: auto;
+}
+
+.nav--logo {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 - 50px);
+    top: 16px;
+}
+
+.nav--title {
+    display: flex;
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: calc(50% - 28px);
+    top: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    
+    color: #FFFFFF;
+}
+
+.article--container {
+    padding: 40px;
+    margin-bottom: 150px;
+}
+
+.article--image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    float: left;
+}
+
+.article--content {
+    margin-left: auto;
+    width: 326px;
+    float: right;
+}
+
+.article--icon {
+    width: 7px;
+    height: 9.55px;
+    left: calc(50% - 7px/2 - 87.5px);
+    margin-top: 20px;
+    float: left;
+}
+
+.article--location {
+    margin-top: 19px;
+    margin-left: 6px;
+    width: 200px;
+    float: left;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+
+.map--link {
+    float: right;
+    margin-top: 5.5%;
+    width: 86px;
+    height: 13px;
+    color: #918E9B;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-decoration-line: underline;
+}
+
+.article--title {
+    display: block;
+    margin-top: 40px;
+    width: 326px;
+    height: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2B283A;
+}
+
+.article--dates {
+    display: block;
+    width: 319px;
+    height: 11px;
+    margin-top: 6px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+}
+
+.article--description {
+    display: block;
+
+    width: 326px;
+    height: 45px;
+    margin-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%; /* or 15px */
+
+    color: #2B283A;
+}
+
+.section--div {
+    position: relative;
+    width: 478px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -18px;
+    
+    border: 1px solid #F5F5F5;
+}
